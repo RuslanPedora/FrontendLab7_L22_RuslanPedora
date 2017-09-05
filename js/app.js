@@ -59,6 +59,7 @@ window.onload = () => {
 
     document.getElementById('main-button').onclick = () => {
         let user = new User();
+
         mixinGetDiscount(user);
         mixinGetBonus(user);
 
